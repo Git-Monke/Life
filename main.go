@@ -1,9 +1,12 @@
 package main
 
 import (
+	"Life/game"
 	"fmt"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	world := game.NewWorld()
+
+	fmt.Println(world)
 }

@@ -11,12 +11,11 @@ Basic game functionality:
   1. When a user logs in, if they have no registered organisms they can send a request to create one 
   2. Every organism has a few core traits:
     a. List of senses,
-    b. List of possible instructions,
+    b. List of whitelisted instructions,
     c. Size
     d. Brain Size
     e. Brain Speed
   3. Based on these core traits, each organism has a Basal Metabolic Rate. Every game tick, the organism loses energy based on this value 
   4. If any organism loses all of its energy, it dies and this turns into food 
-  5. Larger organisms can move on top of smaller organisms. Smaller and equal sized organisms cannot overlap. If a larger organism overlaps more than half with an organism smaller than itself (that isn't of the same race), the smaller organism will die and turn into food
-  6. :w
+  5. Larger organisms can move on top of smaller organisms. Smaller and equal sized organisms cannot overlap. If a larger organism overlaps more than half with an organism smaller than itself (that isn't of the same race), the smaller organism will die and turn into food 
 
